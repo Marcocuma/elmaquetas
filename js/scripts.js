@@ -9,6 +9,8 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    AOS.init();
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
